@@ -1,12 +1,60 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>STO</title>
+    <link rel="stylesheet" href="style.css">
+<!--    defer - загружає скрипт фоново від сторінки -->
+    <script src="script.js" defer ></script>
 
-    <p>qweqweqweqwe</p>
+
 </head>
 <body>
+<article class="container">
+    <div class="block">
+
+        <section class="block__item block-item">
+            <h2 class ="block-item__title">У вас є аккаунт</h2>
+            <button class="block-item__btn signin-btn">Вхід</button>
+        </section>
+        <section class="block__item block-item">
+            <h2 class="block-item__title">У вас немає аккаунту </h2>
+            <button class="block-item__btn  signup-btn">Зареєструватися</button>
+        </section>
+
+    </div>
+
+    <div class="form-box">
+
+        <!-- форма входу-->
+        <form action="#" class="form form_signin">
+            <h3 class="form__title">Вхід</h3>
+
+            <p><input type="text" class="form__input" placeholder="Логін"></p>
+            <p><input type="password" class="form__input" placeholder="Пароль"></p>
+            <p>
+                <button class="form__btn">Увійти</button></p>
+            <p><a href="" class="form__forgot">Відновлення пароля</a></p>
+        </form>
+
+        <!--форма реєстрації-->
+        <form action="#" class="form form_signup">
+            <h3 class="form__title">Реєстрація</h3>
+
+            <p><input type="text" class="form__input" placeholder="Логін"></p>
+            <p><input type="text" class="form__input" placeholder="Email"></p>
+            <p><input type="password" class="form__input" placeholder="Пароль"></p>
+            <p><input type="password" class="form__input" placeholder="Підтвердіть пароль"></p>
+
+            <p><button class="form__btn form__btn_signup">Зарейструватися</button></p>
+        </form>
+
+    </div>
+
+</article>
 
 </body>
 </html>
