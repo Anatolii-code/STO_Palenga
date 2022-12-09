@@ -1,0 +1,140 @@
+body{
+    margin:0;
+
+    /*take a container in a center*/
+    /*min-height: 100vh;*/
+    /*display: flex ;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    /*colorOfContainer*/
+    background-color: #ffffff;
+    /*transition: 0.5s;*/
+}
+h1{
+
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+
+
+    text-align: center;
+}
+/*.table{*/
+/*   */
+/*    padding: 20px;*/
+/*    margin: 300px;*/
+/*    margin-top: 100px;*/
+/*    display: flex ;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+
+/*    color: #022d2f;*/
+/*}*/
+/*table{*/
+/*    font-family: sans-serif;*/
+/*    text-align: center;*/
+/*    border-collapse: separate;*/
+/*    border-spacing: 5px;*/
+/*    background: #ece9e0;*/
+/*    color: #656665;*/
+/*    border: 16px solid #ece9e0;*/
+/*    border-radius: 20px;*/
+/*    margin: 60px;*/
+/*    margin-left: 150px;*/
+
+
+/*}*/
+/*th{*/
+/*    font-size: 19px;*/
+/*    padding: 10px;*/
+/*}*/
+/*td{*/
+/*    background: #efbb9d;*/
+/*    padding: 10px;*/
+/*}*/
+/*оформление таблицы 2*/
+table#table2 {
+    margin-top: 50px;
+    font-family: sans-serif;
+    font-size: 14px;
+    border-collapse: collapse;
+    text-align: center;
+
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+}
+table#table2 th, table#table2 td:first-child{
+background: #afcde7;
+color: white;
+padding: 10px 20px;
+}
+table#table2 th, table#table2 td {
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    border-color: white;
+}
+table#table2 td {
+    background: #d8e6f7;
+}
+
+
+table#table3 {
+    margin-top: 50px;
+    font-family: sans-serif;
+    font-size: 14px;
+    border-collapse: collapse;
+    text-align: center;
+
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+}
+table#table3 th, table#table3 td:first-child{
+    background: #f43648;
+    color: white;
+    padding: 10px 20px;
+}
+table#table3 th, table#table3 td {
+    color: #000000;
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    border-color: white;
+}
+table#table3 td {
+    background: #f6aaad;
+}
+.textSto{
+    margin-left: 20px;
+    width: 800px;
+    height: 200px;
+    font-family: sans-serif;
+    background-color: #f3ed8c;
+    color: #333333;
+border-radius: 20px;
+    padding: 30px;
+
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+}
+.rozdil{
+    margin: 50px;
+    display: flex ;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Algerian;
+}
+
+.rozdil_Sto{
+
+    margin-top: 20px;
+    background-color: #a6a05d;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+}
+
+.rozdil_Sto_text{
+    margin-top: 30px;
+}
