@@ -13,3 +13,28 @@ signInBtn.addEventListener('click', function () {
     formBox.classList.remove ('active');
     body.classList.remove ('active');
 })
+const mysql = require("mysql2");
+
+const connection = mysql.createConnection({
+    host: "owu.linkpc.net",
+    user: "alanvelex",
+    database: "owu.linkpc.net",
+    password: "root"
+});
+// тест
+connection.connect(function(err){
+    if (err) {
+        return console.error("Помилка: " + err.message);
+    }
+    else{
+        console.log("Підключення до серверу MySQL установлено");
+    }
+});
+// закрити коннект
+connection.end(function(err) {
+    if (err) {
+        return console.log("Помилка: " + err.message);
+    }
+    console.log("Підключення закрито");
+});
+

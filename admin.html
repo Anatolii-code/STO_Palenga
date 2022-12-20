@@ -5,16 +5,22 @@
     <title>Панель Адміністратора</title>
 
   <link rel="stylesheet" href="styleAdmin.css">
+
     <!--    defer - загружає скрипт фоново від сторінки -->
     <script src="script.js" defer ></script>
 
 </head>
 <body>
-<p><a href="admin.html" >  Цех ходової частини</a></p>
-<p><a href="admin2.html" > Цех малярної частини</a></p>
-<p><a href="client.html" > Клієнт </a></p>
+<div class="buttons_main" >
+    <button class="buttons_main_inside"><a href="admin.html" >  Цех ходової частини</a></button>
+    <button class="buttons_main_inside"><a href="admin2.html" > Цех малярної частини</a></button>
+    <button class="buttons_main_inside"><a href="client.html" > Клієнт </a></button>
+    <button class="buttons_main_inside"><a href="index.html" > Вихід </a></button>
+</div>
 
-<h1>Цех ходової частини</h1>
+<h1 class="h1_zaholowky">Цех ходової частини</h1>
+
+
 <table id="table2">
 
 <!--   tr - строки -->
@@ -101,6 +107,16 @@
     </tr>
 
 </table>
+
+<div class="input_hodowa">
+
+    <input type="text" id="one">
+    <input type="text" id="two">
+    <input type="text" id="tree">
+    <input type="text" id="four">
+    <button>Push</button>
+
+</div>
 
 </body>
 </html>
